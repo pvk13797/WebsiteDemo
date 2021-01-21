@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header {
+    padding: 180px;
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: lightgreen;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+.navbar a.left {
+    float: left;
+    font-size: 30px;
+}
+
+.navbar a.input {
+    cursor: pointer;
+}
+
+.features {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.features h1 {
+    font-size: 40px;
+}
+
+.features hr {
+    border: 2px solid greenyellow;
+    width: 10%;
+    color: lightgreen;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.column1 {
+    float: right;
+    position: relative;
+    left: -60px;
+    width: 30%;
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.column2 {
+    float: left;
+    position: relative;
+    left: 150px;
+    width: 25%;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border: 10px solid white;
+}
+
+.column3 {
+    float: left;
+    position: relative;
+    left: 150px;
+    width: 25%;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    border: 10px solid white;
+}
+
+.row .column p {
+    line-height: 25px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.exfeature {
+    background-color: whitesmoke;
+    float: right;
+    width: 100%;
+    padding: 10px;
+}
+
+.exfeature img {
+    float: left;
+    padding: 30px;
+}
+
+.exfeature p {
+    line-height: 20px;
+}
+
+.services {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.services h1 {
+    font-size: 30px;
+}
+
+.services hr {
+    border: 2px solid greenyellow;
+    width: 10%;
+    color: lightgreen;
+}
+
+.call {
+    position: relative;
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.call img {
+    opacity: 0.5;
+}
+
+.call hr {
+    border: 2px solid lightgreen;
+    width: 20%;
+}
+
+.price {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.price hr {
+    border: 2px solid lightgreen;
+    width: 10%;
+}
+
+.column2 ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.column2 hr {
+    border: 1px solid grey;
+    width: 115%;
+    position: relative;
+    right: 17px;
+}
+
+.column2 button {
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px 2px;
+}
+
+.column2 button:hover {
+    color: black;
+}
+
+.about {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.about hr {
+    border: 2px solid lightgreen;
+    width: 10%;
+}
+
+.textside {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-color: lightseagreen;
+    color: white;
+}
+
+.test {
+    background-color:lightgreen;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    padding: 90px;
+}
+
+.test hr {
+    border: 2px solid white;
+    width: 10%;
+}
+
+.test p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.navbar input {
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: -8px;
+}
+
+.navbar input:hover {
+    background-color: lightgreen;
+}
+
+.footer {
+    padding: 200px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+@media (max-width: 700px) {
+    .row {
+        height: auto;
+    }
+}
